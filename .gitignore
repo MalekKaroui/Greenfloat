@@ -1,0 +1,24 @@
+# Simulation files
+*.vvp
+*.vcd
+*.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Results (can be regenerated)
+results/*.csv
+results/*.vcd
+results/*.txt
+
+# Keep the plots
+!results/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+*.log
